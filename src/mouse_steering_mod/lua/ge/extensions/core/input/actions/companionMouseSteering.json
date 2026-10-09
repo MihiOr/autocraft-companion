@@ -1,0 +1,10 @@
+{
+  "companionToggleMouseSteering": {
+    "cat": "vehicle",
+    "order": 6.1,
+    "ctx": "tlua",
+    "onDown": "if extensions.companionMouseSteering then extensions.companionMouseSteering.toggle() end",
+    "title": "Toggle mouse steering (direct)",
+    "desc": "Add/remove horizontal mouse steering using the Wheel (direct) filter."
+  }
+}

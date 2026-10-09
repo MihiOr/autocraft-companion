@@ -1,0 +1,22 @@
+{
+  "domElement": "<minini-test-bench></minini-test-bench>",
+  "name": "Minini Test Bench",
+  "description": "Exclusive per-wheel Nm and steering tests, with optional initial-speed run-up.",
+  "types": [
+    "ui.apps.categories.vehicle"
+  ],
+  "css": {
+    "width": "430px",
+    "height": "610px",
+    "min-width": "380px",
+    "min-height": "570px"
+  },
+  "author": "MihiOr",
+  "version": "1.0",
+  "directive": "mininiTestBench",
+  "vue": true,
+  "category": "Vehicle",
+  "isAuxiliary": false,
+  "interactive": "yes",
+  "preserveAspectRatio": false
+}
