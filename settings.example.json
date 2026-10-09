@@ -1,0 +1,10 @@
+{
+  "mods": "",
+  "vcl": "",
+  "email": "",
+  "password": "",
+  "dashboard_port": "Dummy receiver (no hardware)",
+  "dashboard_baud": "921600",
+  "launch_creator": false,
+  "restart_creator": false
+}

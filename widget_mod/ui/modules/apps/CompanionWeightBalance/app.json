@@ -1,0 +1,15 @@
+{
+  "domElement": "<companion-weight-balance></companion-weight-balance>",
+  "name": "Companion Weight Balance",
+  "description": "Front-up wheel loads with a circular left/right and front/rear load balance display. For FL, FR, RL and RR wheels, including AutoCraft exports.",
+  "types": ["ui.apps.categories.telemetry"],
+  "css": {"width":"310px","height":"490px","min-width":"260px","min-height":"440px","left":"0px","top":"0px"},
+  "author": "AutoCraft Companion",
+  "version": "1.1",
+  "directive": "companionWeightBalance",
+  "vue": true,
+  "category": "Telemetry",
+  "isAuxiliary": false,
+  "interactive": "no",
+  "preserveAspectRatio": false
+}

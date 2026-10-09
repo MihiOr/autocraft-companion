@@ -1,0 +1,26 @@
+AutoCraft Companion - Windows release
+
+1. Install Python 3.11 or newer with Tkinter and the Python launcher.
+2. Extract the complete release ZIP into a writable folder.
+3. Open PowerShell in the extracted "AutoCraft Companion" folder and run:
+     .\setup.ps1
+   This creates a local .venv and installs the required Python packages.
+4. Open AutoCraft Companion.exe. You can pin it to the taskbar.
+5. In Settings, choose your BeamNG mods folder and enter your own Delta Cross
+   account if you want website conversions. Offline ZIP patching and dashboard
+   telemetry do not require an account.
+
+The EXE is a console-free launcher. Python and the local .venv are required;
+they are not bundled. Keep the launcher beside app.py.
+
+No account, password, personal paths or saved orders are included. The app
+creates settings.json when you use it. It stores any login you enter locally.
+
+Standalone BeamNG helper ZIPs are in beamng-mods/. Copy only the ones you want
+to the game's mods folder and keep each ZIP packed. Do not put the outer
+Companion release ZIP into BeamNG. Dashboard and spawn-heading helpers can
+also be installed through Companion. Avoid enabling duplicate packed and
+unpacked copies of the same helper.
+
+For serial dashboard output, Companion must stay open. See DASHBOARD_SERIAL.md
+for transport details and STM32 receipt requirements.
