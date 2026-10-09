@@ -1,0 +1,24 @@
+{
+  "domElement": "<minini-yaw-control></minini-yaw-control>",
+  "name": "MiTVS Debug",
+  "description": "Software yaw targets, per-wheel correction shares and estimated motor/grip usage. Not shaft measurements.",
+  "types": [
+    "ui.apps.categories.telemetry"
+  ],
+  "css": {
+    "width": "760px",
+    "height": "295px",
+    "min-width": "690px",
+    "min-height": "260px",
+    "left": "0px",
+    "top": "0px"
+  },
+  "author": "MiNini",
+  "version": "2.0",
+  "directive": "mininiYawControl",
+  "vue": true,
+  "category": "Telemetry",
+  "isAuxiliary": false,
+  "interactive": "no",
+  "preserveAspectRatio": false
+}
